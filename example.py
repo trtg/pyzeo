@@ -26,5 +26,9 @@ print myzeo.getSleepStatsForDate('2012-09-12')
 
 print myzeo.getSleepRecordForDate()
 
+print myzeo.getPreviousSleepStats()
+
+print myzeo.getPreviousSleepRecord()
+
 
 

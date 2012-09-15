@@ -14,14 +14,14 @@ This library provides a lightweight python wrapper for the fitbit API with the g
 ###getSleepRecordForDate - Returns the SleepRecord for the specified date.
 
 ##Paging Functions:
-##getPreviousSleepStats - Returns the SleepStats (grouped by day) for the latest date prior to the specified date.
-##getPreviousSleepRecord - Returns the SleepRecord for the latest date prior to the specified date.
-##getNextSleepStats - Returns the SleepStats (grouped by day) for the earliest date after the specified date.
-##getNextSleepRecord -	Returns the SleepStats for the earliest date after the specified date.
-##getEarliestSleepStats - Returns the SleepStats (grouped by day) with the earliest date on record for the current user.
-##getEarliestSleepRecord - Returns the SleepRecord with the earliest date on record for the current user.
-##getLatestSleepStats - Returns the SleepStats (grouped by day) with the latest date on record for the current user.
-##getLatestSleepRecord -	Returns the SleepRecord with the latest date on record for the current user.
+###getPreviousSleepStats - Returns the SleepStats (grouped by day) for the latest date prior to the specified date.
+###getPreviousSleepRecord - Returns the SleepRecord for the latest date prior to the specified date.
+###getNextSleepStats - Returns the SleepStats (grouped by day) for the earliest date after the specified date.
+###getNextSleepRecord -	Returns the SleepStats for the earliest date after the specified date.
+###getEarliestSleepStats - Returns the SleepStats (grouped by day) with the earliest date on record for the current user.
+###getEarliestSleepRecord - Returns the SleepRecord with the earliest date on record for the current user.
+###getLatestSleepStats - Returns the SleepStats (grouped by day) with the latest date on record for the current user.
+###getLatestSleepRecord -	Returns the SleepRecord with the latest date on record for the current user.
 
 ##Miscellaneous Functions:
 ###logout - Logs the user out of the API and closes the session.
