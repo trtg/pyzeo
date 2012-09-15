@@ -198,3 +198,21 @@ class Zeo:
         """
         return self.apiRequest("getEarliestSleepStats")
 
+    def getEarliestSleepRecord(self):
+        """
+        getEarliestSleepRecord(self)
+        """
+        return self.apiRequest("getEarliestSleepRecord")
+
+    def getLatestSleepStats(self):
+        """
+        getLatestSleepStats(self)
+        """
+        return self.apiRequest("getLatestSleepStats")
+
+    def getLatestSleepRecord(self):
+        """
+        getLatestSleepRecord(self)
+        """
+        return self.apiRequest("getLatestSleepRecord")
+
