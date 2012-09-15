@@ -191,3 +191,10 @@ class Zeo:
             date = datetime.datetime.now().strftime('%Y-%m-%d')
         params={'date':date}
         return self.apiRequest("getNextSleepRecord",params)
+
+    def getEarliestSleepStats(self):
+        """
+        getEarliestSleepStats(self)
+        """
+        return self.apiRequest("getEarliestSleepStats")
+
