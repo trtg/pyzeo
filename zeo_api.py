@@ -181,4 +181,13 @@ class Zeo:
             date = datetime.datetime.now().strftime('%Y-%m-%d')
         params={'date':date}
         return self.apiRequest("getNextSleepStats",params)
-
+    
+    def getNextSleepRecord(self,date=None):
+        """
+        getNextSleepRecord(self,date=None)
+        If no date is specified, the current date will be used
+        """
+        if date is None:
+            date = datetime.datetime.now().strftime('%Y-%m-%d')
+        params={'date':date}
+        return self.apiRequest("getNextSleepRecord",params)
