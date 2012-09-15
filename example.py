@@ -30,5 +30,5 @@ print myzeo.getPreviousSleepStats()
 
 print myzeo.getPreviousSleepRecord()
 
-
+print myzeo.getNextSleepStats('2012-09-01')
 
